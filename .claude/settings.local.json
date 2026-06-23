@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/hardi/OneDrive/Desktop/jewl/shiv_shakti_app/src/**)",
+      "PowerShell(Start-Process powershell -ArgumentList \"-NoExit\", \"-Command\", \"cd 'c:\\\\Users\\\\hardi\\\\OneDrive\\\\Desktop\\\\jewl\\\\shiv_shakti_app'; python server.py\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\hardi\\OneDrive\\Desktop\\jewl\\shiv_shakti_app\\src"
+    ]
+  }
+}
