@@ -1,5 +1,4 @@
 import pandas as pd
-
-
 df = pd.read_csv("orders.csv")
-print(df.head)
+
+print(df[df["Country"].str.startswith('C')])
